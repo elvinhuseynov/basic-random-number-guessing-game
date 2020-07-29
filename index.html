@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="/style/style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <span class="text">
+        Guess the number
+      </span>
+      <div id="input-box">
+        <input 
+        type="button" 
+        value="10" 
+        class="button" 
+        onclick="tenNumbers()" />
+        <input
+          type="button"
+          value="100"
+          class="button"
+          onclick="hundredNumbers(
+        )"
+        />
+      </div>
+    </div>
+
+    <div class="bottom">
+      <div class="input-div">
+        <input type="text" value="0" id="input" readonly />
+      </div>
+
+      <div id="text2">
+        <div id="lose">
+            You lose :(
+        </div>  
+        <div id="win">
+            You win :)
+        </div>
+        Refresh to play again :)
+      </div>
+    </div>
+  </body>
+  <script src="/script/main.js"></script>
+</html>

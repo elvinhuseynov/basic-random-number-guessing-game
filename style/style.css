@@ -1,0 +1,116 @@
+@media screen and (max-width: 576px) {
+  html {
+    font-size: 5px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 7.5px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  html {
+    font-size: 9px;
+  }
+}
+
+@media scrren and (max-width: 1200px) {
+  html {
+    font-size: 10px;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 10px;
+}
+
+body .main {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: auto;
+  margin-top: 10rem;
+}
+
+body .main .text {
+  margin: auto;
+  font-size: 2.5rem;
+}
+
+body .main #input-box {
+  width: 30%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .main #input-box .button {
+  font-size: 2rem;
+  cursor: pointer;
+  color: #fff;
+  background-color: #2bc5da;
+  border: none;
+  outline: 0;
+  -webkit-transition: ease 0.8s;
+  transition: ease 0.8s;
+}
+
+body .main #input-box .button:hover {
+  color: #000000;
+}
+
+body .bottom {
+  position: relative;
+  width: 30%;
+  margin: auto;
+  margin-top: 4rem;
+}
+
+body .bottom .input-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+body .bottom .input-div #input {
+  height: 2rem;
+  outline: 0;
+  text-align: center;
+}
+
+body .bottom #text2 {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  font-size: 2rem;
+  display: none;
+}
+
+body .bottom #text2 #win {
+  display: none;
+}
+
+body .bottom #text2 #lose {
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */
